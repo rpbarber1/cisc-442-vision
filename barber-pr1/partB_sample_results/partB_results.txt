@@ -1,0 +1,32 @@
+Part B example results
+
+Perspective matrix with built-in cv2.cv.getPerspectiveTransform()
+ [[ 6.50656853e-01  1.71198825e-01  1.01922475e+01]
+ [-1.52084634e-01  9.70038696e-01  1.82586785e+01]
+ [-6.77208492e-05 -1.95067215e-04  1.00000000e+00]]
+Affine matrix with built-in cv2.cv.getAffineTransform()
+ [[ 1.33244681 -0.21808511 31.27659574]
+ [-0.08510638  1.06382979 12.55319149]]
+Perspective matrix with manual homography calculation
+ [[ 6.6723675e-01  1.8171021e-01  6.1209450e+00]
+ [-1.5524821e-01  1.0015793e+00  1.5803108e+01]
+ [-6.3276362e-05 -1.5840438e-04  1.0000000e+00]]
+Perspective matrix (over constrained) with manual homography calculation
+ [[ 6.3708782e-01  1.8680693e-01  1.1145387e+01]
+ [-1.5849465e-01  9.8125190e-01  2.1178972e+01]
+ [-9.0464702e-05 -1.6700856e-04  1.0000000e+00]]
+Perspective error of 4 Point
+ 6.588709322334783
+Perspective error of 7 Point over constrained
+ 3.9202841370213317
+Affine matrix with manual homography calculation
+ [[ 1.3430233  -0.27105182 36.36073   ]
+ [-0.08139535  1.0441556  18.803846  ]]
+Affine matrix (over constrained) with manual homography calculation
+ [[ 1.3327826  -0.2189024  28.820175  ]
+ [-0.08719664  1.0708034  10.018539  ]]
+Affine error of 3 Point
+ 11.421716774239139
+Affine error of 4 Point over constrained
+ 5.001289614179079
+

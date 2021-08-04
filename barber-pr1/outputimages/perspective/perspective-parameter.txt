@@ -1,0 +1,12 @@
+Perspective parameter for image2_12.jpg
+
+perspective matrix
+ [[ 1.2248122e+00 -2.7553042e-02 -1.8542906e+02]
+ [ 1.2969768e-01  1.2229548e+00 -1.5507845e+01]
+ [ 5.0695089e-04  2.2038553e-04  1.0000000e+00]]
+inverse perspective matrix
+ [[ 7.5911564e-01 -8.2405508e-03  1.4063431e+02]
+ [-8.5148267e-02  8.1633729e-01 -3.1293316e+00]
+ [-3.6606891e-04 -1.7573137e-04  9.2939496e-01]]
+
+The The homography is not perfect due to inaccuracy of clicking points
